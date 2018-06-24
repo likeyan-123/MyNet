@@ -1,0 +1,5 @@
+E:\VS2012Projects\MyNet\MyNet\bin\MyNet.dll
+E:\VS2012Projects\MyNet\MyNet\bin\MyNet.pdb
+E:\VS2012Projects\MyNet\MyNet\obj\Debug\MyNet.dll
+E:\VS2012Projects\MyNet\MyNet\obj\Debug\MyNet.pdb
+E:\VS2012Projects\MyNet\MyNet\obj\Debug\MyNet.csprojResolveAssemblyReference.cache
