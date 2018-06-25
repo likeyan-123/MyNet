@@ -99,6 +99,9 @@
         .auto-style1 {
             width: 341px;
         }
+        .auto-style2 {
+            width: 52px;
+        }
     </style>
 </head>
 
@@ -161,7 +164,8 @@
         <td class="style26">
             &nbsp;</td>
         <td class="style26">
-            &nbsp;</td>
+            <asp:Button ID="Button3" runat="server" OnClick="Button3_Click" Text="修改" Width="81px" />
+        </td>
         <td class="style27">
             &nbsp;</td>
         <td class="style27">
@@ -318,7 +322,8 @@
                     <li>4</li>
                     <li>5</li>
                 </ul>
-            </div>
+            </div>
+
         </td>
         <td class="style14" bgcolor="White">
             <table class="style18">
@@ -331,7 +336,8 @@
                     <td colspan="4">
                         <div class="scrollNews">
                     <ul>
-                        <li><a href="#" class="tooltip" title="甜美宽松毛衣今秋一定红1."><li><a href="#" class="tooltip" title="甜美宽松毛衣今秋一定红."><%System.Data.DataSet ds = (System.Data.DataSet)Session["mydata"]; %><%=ds.Tables[0].Rows[0]["productName"] %></a></li></a></li>
+                        <li><a href="#" class="tooltip" title="甜美宽松毛衣今秋一定红1."><li><a href="#" class="tooltip" title="甜美宽松毛衣今秋一定红."><%System.Data.DataSet ds = (System.Data.DataSet)Session["mydata"]; %><%=ds.Tables[0].Rows[2]["Information"] %></a></li></a></li>
+
                         <li><a href="#" class="tooltip" title="秋装百搭小马甲不到50元.">【公告】京东亮相CESAsia展现智能生态.</a></li>
                         <li><a href="#" class="tooltip" title="修身韩版小西装万人疯抢.">【特惠】家电巅峰六月销售低至5折.</a></li>
                         <li><a href="#" class="tooltip" title="夏末雪纺店主含泪大甩卖.">【公告】《创京东》京东图书独家销售.</a></li>
@@ -358,7 +364,7 @@
             <asp:Image ID="Image4" runat="server" ImageUrl="~/page5/logo6.png" Height="65px" 
                             Width="54px" />
                     </td>
-                    <td class="style36">
+                    <td class="auto-style2">
             <asp:Image ID="Image5" runat="server" ImageUrl="~/page5/logo7.png" Height="65px" 
                             Width="54px" />
                     </td>
@@ -376,7 +382,7 @@
             <asp:Image ID="Image8" runat="server" ImageUrl="~/page5/logo10.png" Height="65px" 
                             Width="54px" />
                     </td>
-                    <td class="style36">
+                    <td class="auto-style2">
             <asp:Image ID="Image9" runat="server" ImageUrl="~/page5/logo11.png" Height="65px" 
                             Width="54px" />
                     </td>
@@ -394,7 +400,7 @@
             <asp:Image ID="Image12" runat="server" ImageUrl="~/page5/logo4.png" Height="65px" 
                             Width="54px" />
                     </td>
-                    <td class="style36">
+                    <td class="auto-style2">
             <asp:Image ID="Image13" runat="server" ImageUrl="~/page5/logo4.png" Height="65px" 
                             Width="54px" />
                     </td>
